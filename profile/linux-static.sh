@@ -18,7 +18,7 @@ function main {
         -DENABLE_X264:BOOL="0" \
         -DENABLE_FFMPEG:BOOL="1" \
         -DENABLE_PLAYER:BOOL="1" \
-        -DENABLE_RTPPROXY:BOOL="0" \
+        # -DENABLE_RTPPROXY:BOOL="0" \
         -DCMAKE_BUILD_TYPE:STRING="Release" 
 
     cd "${build_path}" || exit
