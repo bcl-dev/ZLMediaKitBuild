@@ -2,7 +2,8 @@
 name: Build ZLMEDIAKIT
 
 on:
-  repository_dispatch:
+  # repository_dispatch:
+  workflow_dispatch:
 
 env:
   WORKDIR: /workdir
